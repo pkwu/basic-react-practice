@@ -1,0 +1,21 @@
+{
+  "name": "boilerplate-ui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "setup:server": "cd server && npm install",
+    "setup:client": "cd client && npm install",
+    "start:server": "cd server && npm run start",
+    "build": "cd client && npm run build",
+    "buildEnv": "node bin/buildEnv.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "lodash": "^4.17.5"
+  }
+}
