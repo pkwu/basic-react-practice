@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "buildEnv": "node bin/buildEnv.js",
     "db:setup:rest-server": "cd rest-server && babel-node src/config/database/setup.js",
     "start:rest-server": "cd rest-server && npm start",
     "start": "npm-run-all -p start:rest-server",
