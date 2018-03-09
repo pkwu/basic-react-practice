@@ -7,7 +7,7 @@ import store from '../store.js';
 
 import Sample from './Sample/Sample.jsx';
 
-import { setReduxState } from '../actions/setReduxState';
+// import { setReduxState } from '../actions/setReduxState';
 
 class App extends Component {
   constructor(props) {

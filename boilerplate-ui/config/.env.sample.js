@@ -5,7 +5,7 @@ const envBuild = {
   'client': [
     'NODE_ENV=DEVELOPMENT',
     'DEBUG=TRUE',
-    'REST_SERVER_URL=http://localhost:1337'
+    'REST_SERVER_URL=http://localhost:3396'
   ]
 };
 

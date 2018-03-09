@@ -26,14 +26,3 @@ export const dropDatabase = async () => {
     error(`error dropping database ${err}`);
   }
 };
-
-// export const useDatabase = async () => {
-//   try {
-//     await db.queryAsync(
-//       `USE IF EXISTS ${database}`
-//     );
-//     success(`successfully using database ${database}`);
-//   } catch (err) {
-//     error(`error using database ${err}`);
-//   }
-// };

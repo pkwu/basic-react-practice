@@ -4,8 +4,9 @@ import {
 } from '../../lib/SQL';
 
 const setup = async () => {
-  await dropDatabase();
-  await createDatabase();
+  // await dropDatabase();
+  // await createDatabase();
   process.exit();
 };
+
 setup();
