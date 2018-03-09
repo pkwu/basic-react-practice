@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "db:setup:rest-server": "cd rest-server && babel-node src/config/database/setup.js",
     "start:rest-server": "cd rest-server && npm start",
     "start": "npm-run-all -p start:rest-server",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,5 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "npm-run-all": "^4.1.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
   }
 }
