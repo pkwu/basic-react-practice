@@ -2,6 +2,7 @@ import http from 'http';
 import App from './config/express';
 import { success } from './lib/log';
 import './config/database';
+import './config/mongoDB/database';
 
 const app = App.express;
 

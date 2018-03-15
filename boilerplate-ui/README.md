@@ -2,6 +2,7 @@
 
 ## Setup Environment
 ```
+npm install
 npm run buildEnv
 npm run setup:server
 npm run setup:client
