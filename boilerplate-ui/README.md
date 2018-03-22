@@ -2,6 +2,7 @@
 
 ## Setup Environment
 ```
+cd boilerplate-ui
 npm install
 npm run buildEnv
 npm run setup:server
