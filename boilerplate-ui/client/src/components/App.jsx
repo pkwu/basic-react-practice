@@ -2,7 +2,7 @@ require('./sampleData.js');
 
 import React, { Component } from 'react';
 
-import Sample from './Profile/Profile.jsx';
+import Profile from './Profile/Profile';
 
 class App extends Component {
   constructor() {
@@ -11,9 +11,41 @@ class App extends Component {
   
   render() {
     return (
-      <Sample userInfo={window.userData}/>
+      <Profile />
     )
   }
 }
 
 export default App;
+
+
+
+/* ----------------------
+-------------------------
+SOLUTION BEGINS:
+*/
+
+// require('./sampleData.js');
+
+// import React, { Component } from 'react';
+
+// import Profile from './Profile/Profile';
+
+// class App extends Component {
+//   constructor() {
+//     super();
+//   }
+  
+//   render() {
+//     return (
+//       <Profile userInfo={window.userData}/>
+//     )
+//   }
+// }
+
+// export default App;
+
+/*
+SOLUTION ENDS:
+-------------------------
+-----------------------*/

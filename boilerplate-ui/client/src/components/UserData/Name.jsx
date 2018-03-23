@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
 class Name extends Component {
-  constructor(props) {
-    super(props);
+  constructor() { // FIX ME
+    super(); // FIX ME
   }
 
   render() {
@@ -17,20 +17,30 @@ class Name extends Component {
 export default Name;
 
 
+/* ----------------------
+-------------------------
+SOLUTION BEGINS:
+*/
 
+// import React, { Component } from 'react';
 
+// class Name extends Component {
+//   constructor(props) {
+//     super(props);
+//   }
 
+//   render() {
+//     return (
+//       <div>
+//         <h5>Name: {this.props.name}</h5>
+//       </div>
+//     )
+//   }
+// }
 
+// export default Name;
 
-
-
-
-
-
-// render() {
-  //   return (
-  //     <div>
-  //       <h5>Name: {this.props.name}</h5>
-  //     </div>
-  //   )
-  // }
+/*
+SOLUTION ENDS:
+-------------------------
+-----------------------*/

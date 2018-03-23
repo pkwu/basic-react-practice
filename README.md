@@ -2,6 +2,8 @@
 
 ## Where to Begin:
 ```
+* Be sure to take a look at the README.md inside of boilerplate-ui and follow the installation instructions *
+
 * Start at boilerplate-ui > client > src > index.js
 ** render the App component
 
@@ -24,3 +26,8 @@
 
 * Inside of your Hobbies component, modify the code to dynamically render a list item (<li>) for each element in the array of hobbies
 ** If done correctly, upon adding a new hobby using the "Add A Hobby" button, the page should dynamically add the new hobby to the bottom of the rendered list
+
+* Debugging Tips
+** Double check if your React component accepts props
+** Double check if you're referencing the correct variable name when trying to access props.variable
+** Bind functions for onClick handlers
